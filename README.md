@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+## Configuração
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Clone o repositório: `git clone https://github.com/kauan-carvalho-code/reserva.bp-web.git`
+2. Instale as dependências: `npm install`
+3. Configure as variáveis de ambiente: copie o arquivo `.env-example` para `.env` e configure as variáveis conforme necessário.
 
-Currently, two official plugins are available:
+## Rodando em modo de desenvolvimento
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Inicie o modo de desenvolvimento: `npm run dev`.
 
-## Expanding the ESLint configuration
+## Rodando em modo de produção
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- TO-DO
 
-- Configure the top-level `parserOptions` property like this:
+## Testes
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- TO-DO
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Tecnologias utilizadas
+
+  - React-Query
+  - React-hook-form
+  - Chakra-ui
+  - Yup
+  - Axios
+
+## Docker
+
+Este projeto utiliza Docker para simplificar o processo de desenvolvimento e implantação. Abaixo estão as instruções para configurar e executar o projeto usando Docker.
+
+### Pré-requisitos
+
+Certifique-se de ter o Docker e o Docker Compose instalados em sua máquina. Se você ainda não os possui instalados, você pode baixá-los [aqui](https://www.docker.com/get-started).
