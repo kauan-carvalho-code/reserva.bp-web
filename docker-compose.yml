@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  front-end:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: front-end
+    environment:
+      VITE_API_URL: http://localhost:3000
+    ports:
+      - "5173:5173"
